@@ -35,7 +35,7 @@ const FinalPage = () => {
 
   return (
     <main className="flex flex-col items-center gap-20">
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-wrap">
         <LottieAnimationOne />
         <LottieAnimationTwo />
         <LottieAnimationThree />

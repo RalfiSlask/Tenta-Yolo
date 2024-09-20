@@ -65,13 +65,16 @@ const Questions = () => {
 
   return (
     <main className="flex flex-col items-center gap-20">
-      <button onClick={handleGoBack} className="absolute top-10 left-10">
-        Gå till Hem
-      </button>
-      <h2 className="text-2xl font-bold">{`Fråga ${questionIndex + 1}`}</h2>
+      <div className="flex gap-4 flex-col items-center">
+        <button onClick={handleGoBack} className="md:text-lg">
+          Hem
+        </button>
+        <h2 className="text-2xl font-bold">{`Fråga ${questionIndex + 1}`}</h2>
+      </div>
+
       <section className="flex flex-col gap-8 items-center">
         <Question question={currentQuestion.question} />
-        <div className="flex gap-4 flex-wrap justify-center max-w-[700px]">
+        <div className="flex gap-4 flex-wrap justify-center max-w-[325px] sm:max-w-[700px]">
           {currentQuestion.answers.map((answer, id) => (
             <Answer
               key={id}
@@ -105,7 +108,7 @@ const Questions = () => {
             ) : (
               <span className="text-red-600 flex flex-col text-center gap-4">
                 Du svarade fel. Detta är rätt svar:
-                <strong className=" text-green-600">
+                <strong className=" text-green-600 max-w-[325px] sm:max-w-[500px]">
                   {currentQuestion.correct_answer}
                 </strong>
               </span>

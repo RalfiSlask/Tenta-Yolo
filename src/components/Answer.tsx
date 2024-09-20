@@ -26,7 +26,7 @@ const Answer = ({
   return (
     <button
       onClick={() => handleClick(answer)}
-      className={`${backgroundClass} p-4 rounded text-lg`}
+      className={`${backgroundClass} p-4 rounded md:text-lg`}
       disabled={clicked}
     >
       {answer}
