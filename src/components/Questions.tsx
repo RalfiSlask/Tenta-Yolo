@@ -72,7 +72,7 @@ const Questions = () => {
         <h2 className="text-2xl font-bold">{`Fråga ${questionIndex + 1}`}</h2>
       </div>
 
-      <section className="flex flex-col gap-8 items-center">
+      <section className="flex flex-col gap-8 items-center px-4">
         <Question question={currentQuestion.question} />
         <div className="flex gap-4 flex-wrap justify-center max-w-[325px] sm:max-w-[700px]">
           {currentQuestion.answers.map((answer, id) => (
