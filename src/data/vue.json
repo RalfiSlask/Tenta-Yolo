@@ -1,0 +1,319 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vad används `ref()` till i Vue?",
+      "answers": [
+        "För att skapa en beräknad egenskap",
+        "För att skicka data till en föräldrakomponent",
+        "För att skapa en reaktiv variabel",
+        "För att definiera props"
+      ],
+      "correct_answer": "För att skapa en reaktiv variabel",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 2,
+      "question": "Vad används `v-bind` till i Vue?",
+      "answers": [
+        "För att skapa en loop",
+        "För att hantera klickhändelser",
+        "För att koppla HTML-attribut till JavaScript-variabler",
+        "För att skapa en beräknad egenskap"
+      ],
+      "correct_answer": "För att koppla HTML-attribut till JavaScript-variabler",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 3,
+      "question": "Hur skapar man ett klick-event i Vue?",
+      "answers": ["click()", "@click", "v-bind", "v-click"],
+      "correct_answer": "@click",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 4,
+      "question": "Vad gör `v-model` i Vue?",
+      "answers": [
+        "Binder data åt ett håll",
+        "Kopplar ihop en input och en variabel så att de uppdateras tillsammans",
+        "Visar en lista",
+        "Kopplar en variabel till en knapp"
+      ],
+      "correct_answer": "Kopplar ihop en input och en variabel så att de uppdateras tillsammans",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 5,
+      "question": "Vad används `props` till i Vue?",
+      "answers": [
+        "För att definiera globala variabler",
+        "För att skicka data från en föräldrakomponent till en barnkomponent",
+        "För att skapa reaktiva variabler",
+        "För att hantera events"
+      ],
+      "correct_answer": "För att skicka data från en föräldrakomponent till en barnkomponent",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 6,
+      "question": "Vad gör `template` i Vue?",
+      "answers": [
+        "En funktion för att skapa loopar",
+        "En reaktiv variabel",
+        "En metod för att hantera events",
+        "HTML-liknande syntax som definierar komponentens struktur"
+      ],
+      "correct_answer": "HTML-liknande syntax som definierar komponentens struktur",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 7,
+      "question": "Vad gör `script`-delen i en Vue-komponent?",
+      "answers": [
+        "Definierar komponentens logik och data",
+        "Innehåller stilmallar för komponenten",
+        "Skapar beräknade egenskaper",
+        "Renderar komponentens HTML-struktur"
+      ],
+      "correct_answer": "Definierar komponentens logik och data",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 8,
+      "question": "Vad gör `v-if` i Vue?",
+      "answers": [
+        "Visar eller döljer element beroende på ett villkor",
+        "Skapar en loop",
+        "Binder data till en input",
+        "Hanterar klickhändelser"
+      ],
+      "correct_answer": "Visar eller döljer element beroende på ett villkor",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 9,
+      "question": "Hur itererar du över en lista och visar element i Vue?",
+      "answers": ["v-bind", "v-for", "v-if", "v-on"],
+      "correct_answer": "v-for",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 10,
+      "question": "Vad gör `onMounted` i Vue?",
+      "answers": [
+        "Körs när komponenten är färdigladdad",
+        "Visar eller döljer element beroende på ett villkor",
+        "Definierar ett klick-event",
+        "Skapar en beräknad egenskap"
+      ],
+      "correct_answer": "Körs när komponenten är färdigladdad",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 11,
+      "question": "Vad gör `defineProps` i Vue?",
+      "answers": [
+        "Definierar vilka props som en komponent kan ta emot",
+        "Binder data till en input",
+        "Hanterar klickhändelser",
+        "Skapar en reaktiv variabel"
+      ],
+      "correct_answer": "Definierar vilka props som en komponent kan ta emot",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 12,
+      "question": "Vad är skillnaden mellan `v-show` och `v-if`?",
+      "answers": [
+        "v-show visas alltid",
+        "v-if kan inte användas med komponenter",
+        "v-show döljer element men tar fortfarande plats i DOM",
+        "v-if är alltid synlig"
+      ],
+      "correct_answer": "v-show döljer element men tar fortfarande plats i DOM",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 13,
+      "question": "Vad gör `v-for` i Vue?",
+      "answers": [
+        "Skapar en loop för att iterera över en array",
+        "Visar eller döljer element beroende på ett villkor",
+        "Binder data till en variabel",
+        "Skickar data från en barnkomponent till föräldern"
+      ],
+      "correct_answer": "Skapar en loop för att iterera över en array",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 14,
+      "question": "Vad gör `v-bind:class` i Vue?",
+      "answers": [
+        "Binder CSS-klasser dynamiskt till ett element",
+        "Visar eller döljer element",
+        "Kopplar en input till en variabel",
+        "Skapar en loop"
+      ],
+      "correct_answer": "Binder CSS-klasser dynamiskt till ett element",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 15,
+      "question": "Vad gör `computed` i Vue?",
+      "answers": [
+        "Visar en lista",
+        "Binder data till en input",
+        "Beräknar värden baserat på reaktiva variabler",
+        "Skapar komponenter"
+      ],
+      "correct_answer": "Beräknar värden baserat på reaktiva variabler",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 16,
+      "question": "Vad gör `v-on` i Vue?",
+      "answers": [
+        "Binder data till ett attribut",
+        "Hanterar klickhändelser",
+        "Kopplar data åt två håll",
+        "Skapar en beräknad egenskap"
+      ],
+      "correct_answer": "Hanterar klickhändelser",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 17,
+      "question": "Vad gör `v-else` i Vue?",
+      "answers": [
+        "Visar ett element om villkoret i `v-if` inte är uppfyllt",
+        "Binder data till ett attribut",
+        "Kopplar data åt två håll",
+        "Skapar en loop"
+      ],
+      "correct_answer": "Visar ett element om villkoret i `v-if` inte är uppfyllt",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 18,
+      "question": "Vad är en komponent i Vue?",
+      "answers": [
+        "En återanvändbar del av UI som kan ha egna data och logik",
+        "En funktion som körs vid klick",
+        "En reaktiv variabel",
+        "En metod för att hantera events"
+      ],
+      "correct_answer": "En återanvändbar del av UI som kan ha egna data och logik",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 19,
+      "question": "Vad används `v-bind` för?",
+      "answers": [
+        "För att rendera HTML direkt",
+        "För att dynamiskt binda attribut eller uttryck",
+        "För att skapa loopar",
+        "För att hantera DOM-events"
+      ],
+      "correct_answer": "För att dynamiskt binda attribut eller uttryck",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 20,
+      "question": "Vad är en beräknad egenskap i Vue?",
+      "answers": [
+        "En funktion som returnerar ett värde baserat på reaktiva data",
+        "En variabel som används för att spara data",
+        "En metod för att hantera klick",
+        "En loop som itererar över en array"
+      ],
+      "correct_answer": "En funktion som returnerar ett värde baserat på reaktiva data",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 21,
+      "question": "Hur interpolerar man data i Vue?",
+      "answers": [
+        "Med {{ }} syntaxen",
+        "Med v-model",
+        "Med v-bind",
+        "Med v-if"
+      ],
+      "correct_answer": "Med {{ }} syntaxen",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 22,
+      "question": "Vad är skillnaden mellan Vue och React?",
+      "answers": [
+        "Vue använder en deklarativ syntax, React använder JSX",
+        "Vue är mer komplex än React",
+        "React har inga komponenter, Vue har",
+        "Vue har inga livscykelmetoder, React har"
+      ],
+      "correct_answer": "Vue använder en deklarativ syntax, React använder JSX",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 23,
+      "question": "Vad är direktiv i Vue?",
+      "answers": [
+        "En metod för att skapa loopar",
+        "Speciella attribut som tillhandahåller funktionalitet",
+        "En typ av komponent",
+        "Ett sätt att definiera dataflöde"
+      ],
+      "correct_answer": "Speciella attribut som tillhandahåller funktionalitet",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 24,
+      "question": "Hur hanteras state i Vue?",
+      "answers": [
+        "Genom reaktiva variabler och Vuex",
+        "Med globala variabler",
+        "Enbart genom komponentens data",
+        "Genom props"
+      ],
+      "correct_answer": "Genom reaktiva variabler och Vuex",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 25,
+      "question": "Vad är skillnaden mellan en komponent och ett direktiv i Vue?",
+      "answers": [
+        "Direktiv är mer avancerade än komponenter",
+        "Komponenter kan inte innehålla logik medan direktiv kan",
+        "Direktiv används endast i templates",
+        "Komponenter är återanvändbara UI-delar medan direktiv modifierar DOM"
+      ],
+      "correct_answer": "Komponenter är återanvändbara UI-delar medan direktiv modifierar DOM",
+      "clicked": false,
+      "selected_answer": ""
+    }
+  ]
+}

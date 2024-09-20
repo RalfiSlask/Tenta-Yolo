@@ -1,0 +1,407 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vad används `useState` för i React?",
+      "answers": [
+        "För att skapa en ny komponent",
+        "För att hantera komponentens lokala state",
+        "För att styra livscykeln av en komponent",
+        "För att skicka props till barnkomponenter"
+      ],
+      "correct_answer": "För att hantera komponentens lokala state",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 2,
+      "question": "Vad gör `useEffect` i React?",
+      "answers": [
+        "Skapa en reaktiv variabel",
+        "Definiera props",
+        "Hantera effekter som kan påverka komponenten",
+        "Rendera komponenten"
+      ],
+      "correct_answer": "Hantera effekter som kan påverka komponenten",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 3,
+      "question": "Vad används `useReducer` för?",
+      "answers": [
+        "För att styra livscykeln av en komponent",
+        "För att göra HTTP-anrop",
+        "För att binda props",
+        "För att hantera komplext state"
+      ],
+      "correct_answer": "För att hantera komplext state",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 4,
+      "question": "Vad är skillnaden mellan props drilling och context?",
+      "answers": [
+        "Props drilling är mer effektivt än context",
+        "Det finns ingen skillnad",
+        "Props drilling innebär att skicka props genom flera nivåer av komponenter, medan context tillåter att dela state utan att skicka props",
+        "Context är en typ av props"
+      ],
+      "correct_answer": "Props drilling innebär att skicka props genom flera nivåer av komponenter, medan context tillåter att dela state utan att skicka props",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 5,
+      "question": "Vad innebär immutabilitet i React?",
+      "answers": [
+        "Att alltid använda state",
+        "Att alltid rendera komponenter",
+        "Att alltid använda props",
+        "Att inte ändra objekt eller array direkt"
+      ],
+      "correct_answer": "Att inte ändra objekt eller array direkt",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 6,
+      "question": "Vad gör `setState` i React?",
+      "answers": [
+        "Kopplar en komponent till props",
+        "Uppdaterar komponentens state",
+        "Renderar en komponent",
+        "Skapar en ny komponent"
+      ],
+      "correct_answer": "Uppdaterar komponentens state",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 7,
+      "question": "Vad är skillnaden mellan HashRouter och BrowserRouter?",
+      "answers": [
+        "HashRouter kan inte användas med statisk hosting",
+        "Det finns ingen skillnad",
+        "BrowserRouter är mer begränsad än HashRouter",
+        "HashRouter använder hash i URL:n medan BrowserRouter använder den vanliga historiken"
+      ],
+      "correct_answer": "HashRouter använder hash i URL:n medan BrowserRouter använder den vanliga historiken",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 8,
+      "question": "Vad är syftet med custom hooks i React?",
+      "answers": [
+        "Skapa nya komponenter",
+        "Styra komponenternas livscykel",
+        "Återanvända logik mellan komponenter",
+        "Hantera props"
+      ],
+      "correct_answer": "Återanvända logik mellan komponenter",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 9,
+      "question": "Vad gör React Router?",
+      "answers": [
+        "Hantera navigering mellan olika komponenter",
+        "Hantera formulär",
+        "Skapa reaktiva variabler",
+        "Styra komponentens livscykel"
+      ],
+      "correct_answer": "Hantera navigering mellan olika komponenter",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 10,
+      "question": "Vad används loaders för i React Router?",
+      "answers": [
+        "För att definiera komponenter",
+        "För att visa en laddningsanimation medan data hämtas",
+        "För att hämta data innan en komponent renderas",
+        "För att styra routing-logik"
+      ],
+      "correct_answer": "För att hämta data innan en komponent renderas",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 11,
+      "question": "Varför bör du undvika en tom dependency array i useEffect?",
+      "answers": [
+        "Det kan orsaka oändliga loopar",
+        "Det gör att effekten aldrig körs",
+        "Det kan leda till oönskade renderingar",
+        "Det finns ingen skillnad"
+      ],
+      "correct_answer": "Det kan orsaka oändliga loopar",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 12,
+      "question": "Vad gör spread operatorn (...) i JavaScript?",
+      "answers": [
+        "Loopar igenom en array",
+        "Sprider elementen i en array eller objekt",
+        "Definierar en ny variabel",
+        "Kombinerar två funktioner"
+      ],
+      "correct_answer": "Sprider elementen i en array eller objekt",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 13,
+      "question": "Vad används `useParams` för i React Router?",
+      "answers": [
+        "För att hämta dynamiska parametrar från URL:n",
+        "För att navigera mellan komponenter",
+        "För att definiera routes",
+        "För att styra state"
+      ],
+      "correct_answer": "För att hämta dynamiska parametrar från URL:n",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 14,
+      "question": "Hur interpolerar man i React?",
+      "answers": [
+        "Genom att använda curly braces `{}`",
+        "Genom att använda `v-bind`",
+        "Genom att använda props",
+        "Genom att använda `useEffect`"
+      ],
+      "correct_answer": "Genom att använda curly braces `{}`",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 15,
+      "question": "Hur gör du inline styling i React?",
+      "answers": [
+        "Genom att använda inline CSS",
+        "Genom att använda CSS-filer",
+        "Genom att använda styled-components",
+        "Genom att använda ett objekt med camelCase"
+      ],
+      "correct_answer": "Genom att använda ett objekt med camelCase",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 16,
+      "question": "Hur hanterar du events i React?",
+      "answers": [
+        "Genom att använda props",
+        "Genom att använda useEffect",
+        "Genom att använda event handlers som är bunden till komponenter",
+        "Genom att använda `v-on`"
+      ],
+      "correct_answer": "Genom att använda event handlers som är bunden till komponenter",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 17,
+      "question": "Hur kan du dynamiskt sätta en klass i React?",
+      "answers": [
+        "Genom att använda inline styling",
+        "Genom att använda en variabel i `className`",
+        "Genom att använda props",
+        "Genom att använda useEffect"
+      ],
+      "correct_answer": "Genom att använda en variabel i `className`",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 18,
+      "question": "Vad är skillnaden mellan state och props?",
+      "answers": [
+        "State är lokal och kan ändras, medan props är externa och oföränderliga",
+        "Props är alltid lokala, medan state kan vara globalt",
+        "Det finns ingen skillnad",
+        "State används bara i class-komponenter"
+      ],
+      "correct_answer": "State är lokal och kan ändras, medan props är externa och oföränderliga",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 19,
+      "question": "Vad är en funktionell komponent i React?",
+      "answers": [
+        "En komponent som hanterar state",
+        "En komponent som definieras som en funktion och returnerar JSX",
+        "En komponent som använder class syntax",
+        "En komponent som inte kan återanvändas"
+      ],
+      "correct_answer": "En komponent som definieras som en funktion och returnerar JSX",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 20,
+      "question": "Vad används `React.StrictMode` för?",
+      "answers": [
+        "För att identifiera potentiella problem i applikationen under utveckling",
+        "För att öka prestandan",
+        "För att göra komponenter mer återanvändbara",
+        "För att hantera state"
+      ],
+      "correct_answer": "För att identifiera potentiella problem i applikationen under utveckling",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 21,
+      "question": "Vad innebär ‘lifting state up’ i React?",
+      "answers": [
+        "Att använda useState i flera komponenter",
+        "Att hämta state från API:er",
+        "Att rendera komponenter baserat på props",
+        "Att flytta state till en gemensam förälder för att dela det mellan komponenter"
+      ],
+      "correct_answer": "Att flytta state till en gemensam förälder för att dela det mellan komponenter",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 22,
+      "question": "Vad är Virtual DOM?",
+      "answers": [
+        "En representation av DOM som gör det möjligt att optimera rendering i React",
+        "En typ av databas",
+        "En komponentbibliotek",
+        "En metod för att hantera styling"
+      ],
+      "correct_answer": "En representation av DOM som gör det möjligt att optimera rendering i React",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 23,
+      "question": "Hur får vi värden i context till komponenter i React?",
+      "answers": [
+        "Genom att använda props",
+        "Genom att använda state",
+        "Genom att använda en Provider-komponent",
+        "Genom att använda hooks"
+      ],
+      "correct_answer": "Genom att använda en Provider-komponent",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 24,
+      "question": "Vad är JSX?",
+      "answers": [
+        "Ett bibliotek för att styra state",
+        "Ett sätt att definiera CSS i React",
+        "En typ av databas",
+        "Ett syntax som kombinerar JavaScript och HTML i React"
+      ],
+      "correct_answer": "Ett syntax som kombinerar JavaScript och HTML i React",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 25,
+      "question": "Vad är skillnaden mellan pass by value och pass by reference, och varför är detta viktigt i React?",
+      "answers": [
+        "Pass by reference är snabbare, vilket kan påverka prestanda i React.",
+        "Ingen skillnad, de är samma och påverkar inte React.",
+        "Pass by value skapar en kopia, medan pass by reference skickar en referens. Viktigt för att undvika mutationer i React.",
+        "Pass by value används för primitiva datatyper, vilket kan orsaka problem i React."
+      ],
+      "correct_answer": "Pass by value skapar en kopia, medan pass by reference skickar en referens. Viktigt för att undvika mutationer i React.",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 26,
+      "question": "Hur loopar man inne i JSX?",
+      "answers": [
+        "Genom att använda for-loops",
+        "Genom att använda while-loops",
+        "Genom att använda map() för att iterera över en array",
+        "Genom att använda forEach()"
+      ],
+      "correct_answer": "Genom att använda map() för att iterera över en array",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 27,
+      "question": "Varför måste vi skriva className och inte bara class?",
+      "answers": [
+        "För att det är mer effektivt",
+        "För att class är ett reserverat ord i JavaScript",
+        "För att undvika konflikter med CSS",
+        "Det finns ingen skillnad"
+      ],
+      "correct_answer": "För att class är ett reserverat ord i JavaScript",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 28,
+      "question": "Vad är fördelar med Formik mot vanliga formulär?",
+      "answers": [
+        "Hantera formulärs state och validering mer effektivt",
+        "Det är enklare att använda med statiska formulär",
+        "Det erbjuder mer flexibilitet för styling",
+        "Det är snabbare än vanliga formulär"
+      ],
+      "correct_answer": "Hantera formulärs state och validering mer effektivt",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 29,
+      "question": "Varför körs console.log två gånger i React?",
+      "answers": [
+        "För att det finns en bug i JavaScript",
+        "För att React har en inbyggd debug-funktion",
+        "Det finns ingen anledning, det är bara en slump",
+        "För att React i utvecklingsläge aktiverar Strict Mode som körs två gånger för att identifiera problem"
+      ],
+      "correct_answer": "För att React i utvecklingsläge aktiverar Strict Mode som körs två gånger för att identifiera problem",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 30,
+      "question": "Hur hämtar vi API-data i React?",
+      "answers": [
+        "Genom att använda axios i renderingsmetoden",
+        "Genom att använda get() i useState",
+        "Genom att använda fetch() eller axios i useEffect",
+        "Genom att använda JSON.parse()"
+      ],
+      "correct_answer": "Genom att använda fetch() eller axios i useEffect",
+      "clicked": false,
+      "selected_answer": ""
+    },
+    {
+      "id": 31,
+      "question": "Vad är en nyckel (key) i React och vad gör den?",
+      "answers": [
+        "Ett sätt att skapa dynamiska komponenter",
+        "En metod för att hämta data från API:er",
+        "En unik identifierare för element i en lista som hjälper React att optimera rendering",
+        "En funktion för att styra komponentens livscykel"
+      ],
+      "correct_answer": "En unik identifierare för element i en lista som hjälper React att optimera rendering",
+      "clicked": false,
+      "selected_answer": ""
+    }
+  ]
+}
